@@ -379,7 +379,10 @@ export default function App() {
           )}
         </footer>
       </div>
-      <p className="text-slate-600 text-sm mt-6">Powered by Gemini API</p>
+      <div className="text-center mt-6">
+        <p className="text-slate-600 text-sm">Powered by Gemini API</p>
+        <p className="text-slate-600 text-xs mt-1">Designed by Phạm Hùng Cường - THPT Bình Minh, Ninh Bình</p>
+      </div>
     </div>
   );
 }
